@@ -30,22 +30,22 @@ const TableList = ({ reportId }: Props) => {
     // ));
 
     const findAlignment = (itemIdx: number) => {
-        if (!report) return ''
+        if (!report) return null
 
         const findHeaderObj = report.header[itemIdx];
         // console.log(findHeaderObj);
 
         if (findHeaderObj.align) {
-            return `${findHeaderObj.align}`
+            return `text-${findHeaderObj.align}`
         } else {
             if (findHeaderObj.type === "float") {
-                return 'right'
+                return 'text-right'
             } else if (findHeaderObj.type === "string") {
-                return 'left'
+                return 'text-left'
             } else if (findHeaderObj.type === "boolean") {
-                return 'center'
+                return 'text-center'
             } else {
-                return 'left'
+                return 'text-left'
             }
         }
     }
@@ -74,7 +74,7 @@ const TableList = ({ reportId }: Props) => {
                             {element.map((item, itemIdx) => {
                                 return (
                                     <td key={itemIdx}
-                                        className={` text-${findAlignment(itemIdx)} py-3 px-6 font-semibold w-44 border
+                                        className={` ${findAlignment(itemIdx)} py-3 px-6 font-semibold w-44 border
                      ${typeof item === 'object' ? ' text-amber-300' : ''}`}
                                     // style={{ textAlign: `${findAlignment(itemIdx)}` }}
                                     >
