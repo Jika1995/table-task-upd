@@ -1,0 +1,1 @@
+export const API_URL = "https://table-task-db.vercel.app/api"

@@ -1,0 +1,226 @@
+{
+    "reports": [
+        {
+            "report_name": "Flowers",
+            "id": "flowers_report",
+            "header": [
+                {
+                    "id": "project_name",
+                    "type": "string",
+                    "caption": "Project name"
+                },
+                {
+                    "id": "total_by_project",
+                    "type": "float",
+                    "caption": "Total by project"
+                },
+                {
+                    "id": "project_type",
+                    "type": "string",
+                    "caption": "Project type",
+                    "align": "center"
+                },
+                {
+                    "id": "jan",
+                    "type": "float",
+                    "caption": "Jan"
+                },
+                {
+                    "id": "feb",
+                    "type": "float",
+                    "caption": "Feb"
+                },
+                {
+                    "id": "mar",
+                    "type": "boolean",
+                    "caption": "Mar"
+                }
+            ],
+            "data": [
+                [
+                    "Mimesis",
+                    1024.3,
+                    "commercial",
+                    2048.2,
+                    4096.0,
+                    7200.3
+                ],
+                [
+                    "Mako",
+                    2345.1,
+                    "internal",
+                    3465.3,
+                    {
+                        "d": 12.5,
+                        "color": "selected"
+                    },
+                    15.7
+                ],
+                [
+                    "Edelweiss",
+                    54.4,
+                    "commercial",
+                    564.8,
+                    4652.3,
+                    -3120.1
+                ],
+                [
+                    "Forget-me-not",
+                    930.1,
+                    "commercial",
+                    120.7,
+                    362.5,
+                    4570.4
+                ]
+            ]
+        },
+        {
+            "report_name": "Trees",
+            "id": "trees_report",
+            "header": [
+                {
+                    "id": "project_name",
+                    "type": "string",
+                    "caption": "Project name"
+                },
+                {
+                    "id": "total_by_project",
+                    "type": "float",
+                    "caption": "Total by project"
+                },
+                {
+                    "id": "project_type",
+                    "type": "string",
+                    "caption": "Project type",
+                    "align": "center"
+                },
+                {
+                    "id": "sept",
+                    "type": "float",
+                    "caption": "Sept"
+                },
+                {
+                    "id": "oct",
+                    "type": "float",
+                    "caption": "Oct"
+                },
+                {
+                    "id": "nov",
+                    "type": "boolean",
+                    "caption": "Nov"
+                }
+            ],
+            "data": [
+                [
+                    "Bamboo",
+                    535.3,
+                    "commercial",
+                    1357.2,
+                    2050.0,
+                    3600.3
+                ],
+                [
+                    "Palm",
+                    4755.1,
+                    "internal",
+                    2567.3,
+                    {
+                        "d": 20.5,
+                        "color": "selected"
+                    },
+                    18.9
+                ],
+                [
+                    "Oak",
+                    94.4,
+                    "commercial",
+                    784.8,
+                    2780.3,
+                    -5043.1
+                ],
+                [
+                    "Maple",
+                    230.1,
+                    "commercial",
+                    168.7,
+                    323.5,
+                    3760.4
+                ]
+            ]
+        },
+        {
+            "report_name": "Vegetables",
+            "id": "vegeatbles_report",
+            "header": [
+                {
+                    "id": "project_name",
+                    "type": "string",
+                    "caption": "Project name"
+                },
+                {
+                    "id": "total_by_project",
+                    "type": "float",
+                    "caption": "Total by project"
+                },
+                {
+                    "id": "project_type",
+                    "type": "string",
+                    "caption": "Project type",
+                    "align": "center"
+                },
+                {
+                    "id": "jan",
+                    "type": "float",
+                    "caption": "Jan"
+                },
+                {
+                    "id": "feb",
+                    "type": "float",
+                    "caption": "Feb"
+                },
+                {
+                    "id": "mar",
+                    "type": "boolean",
+                    "caption": "Mar"
+                }
+            ],
+            "data": [
+                [
+                    "Broccoli",
+                    8474.3,
+                    "commercial",
+                    6593.2,
+                    2678.0,
+                    8984.3
+                ],
+                [
+                    "Corn",
+                    3245.1,
+                    "internal",
+                    5497.3,
+                    {
+                        "d": 26.8,
+                        "color": "selected"
+                    },
+                    32.9
+                ],
+                [
+                    "Spinach",
+                    75.9,
+                    "commercial",
+                    355.6,
+                    5678.3,
+                    -2256.1
+                ],
+                [
+                    "Pumpkin",
+                    345.5,
+                    "commercial",
+                    324.7,
+                    578.5,
+                    1509.7
+                ]
+            ]
+        }
+    ]
+}
